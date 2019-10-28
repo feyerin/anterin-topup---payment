@@ -50,42 +50,42 @@ export default class PaketData extends Component{
                     <Radio.Group onChange={this.onChange} value={this.state.value} size="small">
                         <div className="value-content">
                             <div className="box">
-                                <h3>Data GameMAX 25.000</h3>
+                                <h4>Data GameMAX 25.000</h4>
                                 <p>Rp 25.000</p> 
                                 <Radio.Button value={25.000}>pilih</Radio.Button>
                             </div>
                             <div className="box">
-                                <h3>Data 25.000</h3>
+                                <h4>Data 25.000</h4>
                                 <p>Rp 25.000</p> 
                                 <Radio.Button value={25000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>data 50.000</h3> 
+                                <h4>data 50.000</h4> 
                                 <p>Rp 50.000</p>
                                 <Radio.Button value={50.000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>paket bicara 40.000</h3> 
+                                <h4>paket bicara 40.000</h4> 
                                 <p>Rp 40.000</p>
                                 <Radio.Button value={40.000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>paket bicara 100.000</h3> 
+                                <h4>paket bicara 100.000</h4> 
                                 <p>Rp 100.000</p>
                                 <Radio.Button value={100.000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>data 12GB</h3>
+                                <h4>data 12GB</h4>
                                 <p>Rp 100.000</p> 
                                 <Radio.Button value={100.000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>Data 50GB</h3>
+                                <h4>Data 50GB</h4>
                                 <p>Rp 200.000</p> 
                                 <Radio.Button value={100.000}>pilih</Radio.Button> 
                             </div>
                             <div className="box">
-                                <h3>Max Stream 12GB, 30 Hari</h3>
+                                <h4>Max Stream 12GB</h4>
                                 <p>Rp 50.000</p> 
                                 <Radio.Button value={50.000}>pilih</Radio.Button> 
                             </div>
