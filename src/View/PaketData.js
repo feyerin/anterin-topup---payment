@@ -107,6 +107,8 @@ export default class PaketData extends Component{
                         Beli
                     </Button>
                     
+                    <Divider/>
+                    
                     <br></br>
                     <br></br>
                     <br></br>

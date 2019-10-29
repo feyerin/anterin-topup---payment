@@ -4,22 +4,26 @@ import TextField from '@material-ui/core/TextField';
 
 const options = [
     {
-      value: 'zhejiang',
-      label: 'Zhejiang',
+      value: 'Bali',
+      label: 'Bali',
       children: [
         {
-          value: 'hangzhou',
-          label: 'Hangzhou',
+          value: 'KAB BADUNG',
+          label: 'KAB BADUNG',
+        },
+        {
+          value: 'KAB BULELENG',
+          label: 'KAB BULELENG',
         },
       ],
     },
     {
-      value: 'jiangsu',
-      label: 'Jiangsu',
+      value: 'Banten',
+      label: 'Banten',
       children: [
         {
-          value: 'nanjing',
-          label: 'Nanjing',
+          value: 'KOTA TANGGERANG',
+          label: 'KOTA TANGGERANG',
         },
       ],
     },
@@ -115,8 +119,8 @@ export default class PDAM extends Component{
                     </div>
 
                     <div className="section-content section-white">
-                    <h1>section 2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. 
+                    <h1 style={{textAlign:"center"}}>section 2</h1>
+                    <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. 
                         Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. 
                         Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. 
                         Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. 
