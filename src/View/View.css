@@ -26,17 +26,21 @@
   }
   
   .footer{
+    position: fixed;
     background: #001E28;
     color: white; 
     text-align: center;
     padding-bottom:1%;
-    margin-top: 2%; 
+    margin-top: 2%;
+    width: 100%; 
+    left: 0;
+    bottom: 0;
   }
   
   .footer-logo {
     display: block;
-    height: 50px;
-    width: 150px;
+    height: 20%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
   }

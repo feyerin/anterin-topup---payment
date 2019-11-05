@@ -23,7 +23,7 @@ export default class App extends Component {
     return (
       <div className="body">
           <div className="section-content"> 
-            <Carousel autoplay>
+            {/* <Carousel autoplay>
                 <div>
                     <h3>1</h3>
                 </div>
@@ -36,8 +36,8 @@ export default class App extends Component {
                 <div>
                     <h3>4</h3>
                 </div>
-            </Carousel>
-            <Divider/>
+            </Carousel> */}
+            {/* <Divider/> */}
             <h2 style={{display:"inline", marginBottom:"15%"}}>Isi pulsa lewat</h2>
             <h2 className="Anterin-text"> Anterin</h2>
             
@@ -89,26 +89,6 @@ export default class App extends Component {
                     <p>Rp 150.000</p>  
                     <Radio.Button value={150.000}>pilih</Radio.Button> 
                 </div>
-                <div className="box">
-                    <h3>200.000</h3>
-                    <p>Rp 200.000</p>  
-                    <Radio.Button value={200.000}>pilih</Radio.Button> 
-                </div>
-                <div className="box">
-                    <h3>300.000</h3>
-                    <p>Rp 300.000</p>  
-                    <Radio.Button value={300.000}>pilih</Radio.Button>
-                </div>
-                <div className="box">
-                    <h3>500.000</h3>
-                    <p>Rp 500.000</p>  
-                    <Radio.Button value={500.000}>pilih</Radio.Button> 
-                </div>
-                <div className="box">
-                    <h3>1.000.000</h3>
-                    <p>Rp 1.000.000</p>  
-                    <Radio.Button value={1.000}>pilih</Radio.Button> 
-                </div>
               </div>
               </Radio.Group>
               <br></br>
@@ -133,7 +113,7 @@ export default class App extends Component {
             <br></br>
             <br></br>
 
-            <div className="section-content section-blue">
+            {/* <div className="section-content section-blue">
                 <p style={{textAlign:"center"}}>Section 1</p>
                 <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. 
                     Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. 
@@ -170,7 +150,7 @@ export default class App extends Component {
               Rutrum tellus pellentesque eu tincidunt tortor. Semper auctor neque vitae tempus quam. 
               Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
               Enim lobortis scelerisque fermentum dui faucibus. Volutpat ac tincidunt vitae semper quis lectus nulla at.</p>
-        </div>
+        </div> */}
         
         </div>
       </div>

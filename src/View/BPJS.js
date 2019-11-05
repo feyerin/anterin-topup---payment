@@ -38,7 +38,7 @@ export default class BPJS extends Component{
         return(
             <div className="body">
                 <div className="section-content">
-                    <Carousel autoplay>
+                    {/* <Carousel autoplay>
                         <div>
                         <h3>1</h3>
                         </div>
@@ -51,8 +51,8 @@ export default class BPJS extends Component{
                         <div>
                         <h3>4</h3>
                         </div>
-                    </Carousel>
-                    <Divider/>
+                    </Carousel> */}
+                    {/* <Divider/> */}
                     <h2 style={{display:"inline", marginBottom:"15%"}}>Bayar BPJS kesehatan dan ketenagakerjaan kamu di</h2><h2 className="Anterin-text"> Anterin</h2>
                     <p style={{paddingTop:'5%'}}>Jenis BPJS :</p>
                     
@@ -100,7 +100,7 @@ export default class BPJS extends Component{
                     <br></br>
                     <br></br>
 
-                    <div className="section-content section-blue">
+                    {/* <div className="section-content section-blue">
                     <p style={{textAlign:"center"}}>Section 1</p>
                     <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. 
                         Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. 
@@ -137,7 +137,7 @@ export default class BPJS extends Component{
                         Rutrum tellus pellentesque eu tincidunt tortor. Semper auctor neque vitae tempus quam. 
                         Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
                         Enim lobortis scelerisque fermentum dui faucibus. Volutpat ac tincidunt vitae semper quis lectus nulla at.</p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
