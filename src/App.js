@@ -8,6 +8,8 @@ import Pulsa from "./View/Pulsa";
 import PaketData from "./View/PaketData";
 import PDAM from "./View/PDAM";
 import BPJS from "./View/BPJS";
+import TermAndCondition from "./View/TermAndCondition";
+import FAQ from "./View/FAQ";
 
 class App extends Component {
   render(){
@@ -17,9 +19,11 @@ class App extends Component {
         <Navbar/>
         <Switch>
           <Route exact path="/pulsa" component={Pulsa}/>
-          <Route exact path="/PaketData" component={PaketData}/>
-          <Route exact path="/PDAM" component={PDAM}/>
-          <Route exact path="/BPJS" component={BPJS}/>
+          <Route exact path="/paketdata" component={PaketData}/>
+          <Route exact path="/pdam" component={PDAM}/>
+          <Route exact path="/bpjs" component={BPJS}/>
+          <Route exact path="/terms" component={TermAndCondition}/>
+          <Route exact patth="/faq" component={FAQ}/>
         </Switch>
         <Footer/>
         

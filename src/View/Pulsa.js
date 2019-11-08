@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./View.css";
 import "animate.css/animate.min.css";
 import TextField from '@material-ui/core/TextField';
-import {Button,  Radio,Carousel, Divider } from 'antd';
+import {Button,  Radio, Carousel, Divider } from 'antd';
 
 export default class App extends Component {
   constructor(props) {
