@@ -13,7 +13,7 @@ export default class TermAndCondition extends Component{
 
                 <div className="content section-white">
 
-                    <h3 style={{fontWeight:'bold', color:'#12B1D3'}}>Ketentuan penggunaan</h3>
+                    <h3 style={{fontWeight:'bold', color:'#12B1D3'}}>Ketentuan Penggnaan</h3>
 
                     <p className="paragraph">
                         Dengan mengunduh, memasang, dan/atau menggunakan Aplikasi Anterin ("Aplikasi"), Anda setuju bahwa Anda telah membaca, memahami dan menerima dan menyetujui Ketentuan Penggunaan ini ("Ketentuan Penggunaan"). Ketentuan Penggunaan ini merupakan suatu perjanjian sah antara Anda dan PT Anterin Digital Nusantara dan Layanan dan Aplikasi (sebagaimana didefinisikan di bawah ini) berlaku pada kunjungan dan penggunaan Anda pada Laman Web kami di www.anterin.id("Laman Web").

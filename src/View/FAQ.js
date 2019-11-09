@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import { Divider,Collapse } from 'antd';
+import { Divider,Collapse, Menu } from 'antd';
 import CoolTabs from 'react-cool-tabs';
 
 const { Panel } = Collapse;
@@ -101,7 +101,7 @@ class Content1 extends Component {
         </Collapse>
         
         <Divider/>
-        <h2>Order</h2>
+        <h2>Cara Pembayaran</h2>
         <Collapse onChange={callback}>
             <Panel header="10. Bagaimana cara pembayaran di aplikasi Anterin terbaru?" key="10">
             <p>Pada aplikasi Anterin yang baru ada dua metode pembayaran yaitu Anterin Pay dan Tunai.</p>
@@ -379,9 +379,9 @@ export default class FAQ extends Component{
                     <h2 style={{color:'white', margin:'1%',fontWeight:'bold'}}> Frequenly Asked Quetion</h2>
                 </div>
 
-                <CoolTabs className="tab"
+                <CoolTabs className="tab" 
                     tabKey={'1'}
-                    style={{ width: '100%' , background:  'white', }}
+                    style={{height:3500, width:'100%', background:  'white', potition: 'sticky' }}
                     activeTabStyle={{ background:  'white', color:  '#12B1D3' }}
                     unActiveTabStyle={{ background:  '#12B1D3', color:  'white', opacity:0.7 }}
                     leftTabTitle={'Teman'}
