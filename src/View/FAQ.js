@@ -160,7 +160,7 @@ class Content1 extends Component {
   }
   class Content2 extends Component {
     render() {
-      return <div >
+      return <div className="content" >
          <h2>Umum</h2>
         <Collapse onChange={callback}>
             <Panel header="1. Mengapa harus update ke aplikasi Anterin terbaru?" key="1">
